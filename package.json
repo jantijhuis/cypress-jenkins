@@ -4,7 +4,9 @@
   "description": "cypressJan",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress84": "npx cypress run --spec cypress/integration/les84.js",
+    "cypressTraversing": "npx cypress run --spec cypress/integration/traversing-elements_FINAL.js"
   },
   "author": "jan",
   "license": "ISC",
